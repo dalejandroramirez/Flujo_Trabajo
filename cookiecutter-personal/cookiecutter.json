@@ -1,0 +1,8 @@
+{
+"proyect_title": "cookiecutter Personal",
+"proyect_slug": "{{cookiecutter.proyect_title.lower().replace(' ','_').replace('-','_')}}",
+"description": "Escribe algo increible",
+"author_name": "Your name",
+"packages": ["All","minimal"],
+"python_version": "3.7"
+}
