@@ -12,7 +12,8 @@ Es un manejador de plantillas multiplataformal, por lo que las plantillas se pue
 
 - sudo apt-get install cookiecutter
 - Se debe instalar conda para tener un entorno mas global.
-- Se descarga de la pagina de anaconda. 
+- Se descarga de la pagina de anaconda.
+- export PATH=~/anaconda3/bin:$PATH 
 </section>
 
 <div>
@@ -47,3 +48,20 @@ Un hook es una acción que se hace antes o despues de crer el cookiercutter, se 
 # **post_gen_project.py**
 <center> <img src="imagenes/gitproceso.png"></center>
 
+## Usar github
+Para usar una plantilla que se encuentra en git hub simplemente se usa el comando
+- **cookiecutter** "path_git_hub"
+
+## Manejo de excepciones
+<p>
+La documentación nos resalta y recuerda lo importante que es el manejo de excepciones, por ejemplo si tenemos un proceso iterativo y queremos que finalice por todos los elementos así sea que durante su ejecución tenga errores.
+</p>
+
+
+## Plantillas de data science con conda
+
+- cookiecutter https://github.com/jvelezmagic/cookiecutter-conda-data-science
+
+## Plantilla de data science con pip
+
+- cookiecutter -c v1 https://github.com/drivendata/cookiecutter-data-science
